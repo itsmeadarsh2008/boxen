@@ -18,20 +18,27 @@
 </p>
 
 <h2 align="center">Usage</h2>
-<p align="center">
 
-    ```python
-    from boxen import boxen
-    print(boxen("Hello, World!", options={
-    "padding": 3,
-    "borderStyle": "double",
-    "borderColor": "red",
-    "dimBorder": False,
-    "textAlignment": "center",
-    "float": "center",
-    "titleAlignment": "center",
-    }))
-    ```
+```python
+from boxen import boxen
+
+print(
+    boxen(
+        "Hello, World!",
+        options={
+            "padding": 3,
+            "borderStyle": "double",
+            "borderColor": "red",
+            "dimBorder": False,
+            "textAlignment": "center",
+            "float": "center",
+            "titleAlignment": "center",
+        },
+    )
+)
+# These are only few options, there are many more options available
+```
+
 
 <h2 align="center">Preview (A single image for now, there are several options for customization)</h2>
 <table align="center">
