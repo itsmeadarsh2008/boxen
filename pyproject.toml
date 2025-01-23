@@ -1,5 +1,5 @@
 [project]
-name = "boxen"
+name = "boxen-python"
 version = "0.1.0"
 description = "A simple, fast, dependencyless and intuitive library for creating boxes in console 🎁"
 readme = "README.md"

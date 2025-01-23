@@ -14,7 +14,7 @@
 </h3>
 <h2 align="center">Installation</h2>
 <p align="center">
-    <code>uv pip install boxen</code>
+    <code>uv pip install boxen-python</code>
 </p>
 
 <h2 align="center">Usage</h2>
