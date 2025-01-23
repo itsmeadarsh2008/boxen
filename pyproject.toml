@@ -1,0 +1,43 @@
+[project]
+name = "boxen"
+version = "0.1.0"
+description = "A simple, fast, dependencyless and intuitive library for creating boxes in console 🎁"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Adarsh Gourab Mahalik", email = "b6hkxu5od@mozmail.com" }]
+license = { file = "LICENSE" }
+keywords = ["console", "boxes", "formatting", "text", "terminal","cli", "console-utilities", "console-tools", "console-ui"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Terminals",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+# dependencies = []
+
+# Development Dependencies, doesn't install in production
+[dependency-groups]
+dev = ["ruff>=0.8.4"]
+
+[project.urls]
+Homepage = "https://github.com/itsmeadarsh2008/boxen"
+Repository = "https://github.com/itsmeadarsh2008/boxen"
+Issues = "https://github.com/itsmeadarsh2008/boxen/issues"
+Documentation = "https://github.com/itsmeadarsh2008/boxen/blob/main/README.md"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/boxen"]
+
+[tool.ruff]
+target-version = "py39"
