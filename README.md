@@ -32,7 +32,6 @@ print(
             "dimBorder": False,
             "textAlignment": "center",
             "float": "center",
-            "titleAlignment": "center",
         },
     )
 )
