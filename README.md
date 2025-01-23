@@ -1,9 +1,9 @@
 <div align="center">
     <h1>Boxen</h1>
     <div>
-        <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/boxen">
-        <img alt="PyPI - License" src="https://img.shields.io/pypi/l/boxen">
-        <img alt="PyPI" src="https://img.shields.io/pypi/v/boxen">
+        <img alt="PyPI - Downloads" src="https://img.shields.io/pypi/dd/boxen-python">
+        <img alt="PyPI - License" src="https://img.shields.io/pypi/l/boxen-python">
+        <img alt="PyPI" src="https://img.shields.io/pypi/v/boxen-python">
         <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/itsmeadarsh2008">
         <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/itsmeadarsh2008/boxen">
     </div>
